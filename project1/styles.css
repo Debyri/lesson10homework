@@ -1,0 +1,67 @@
+.app-header, .app-text, .employee-name, .employee-ocupation {
+    font-family: 'Lato', sans-serif;
+}
+.app-text {
+    color: #3c3c3c;
+}
+.employee-name {
+    font-size: 20px;
+}
+.employee-ocupation {
+    color: #5f5f5f;
+    font-size: 16px;
+}
+.line {
+    height: 3px;
+    width: 5%;
+    background-color: rgba(128, 128, 128, .8);
+}
+.employee-item{
+    width: 200px;
+    height: 200px;
+}
+
+.eployee-img-active {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(24, 181, 220, 0);
+    opacity: 0;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+.eployee-img-active a {
+    text-decoration: none;
+    margin: 1px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, .6);
+}
+.eployee-img-active:hover {
+    opacity: 1;
+    background-color: rgba(24, 181, 220, 1);
+}
+.employee-item:nth-child(1) {
+    background-image: url(./assets/images/artist.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.employee-item:nth-child(2) {
+ background-image: url(./assets/images/developer.jpg);
+ background-position: center;
+    background-size: cover;
+}
+.employee-item:nth-child(3) {
+    background-image: url(./assets/images/artist.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.employee-item:nth-child(4) {
+    background-image: url(./assets/images/designer.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
